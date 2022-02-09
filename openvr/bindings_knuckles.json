@@ -1,0 +1,263 @@
+{
+  "bindings": {
+    "/actions/game": {
+      "poses": [
+        {
+          "output": "/actions/game/in/right_pointer",
+          "path": "/user/hand/right/pose/tip"
+        },
+        {
+          "output": "/actions/game/in/left_pointer",
+          "path": "/user/hand/left/pose/tip"
+        }
+      ],
+      "haptics": [
+        {
+          "output": "/actions/game/out/haptic",
+          "path": "/user/hand/right/output/haptic"
+        },
+        {
+          "output": "/actions/game/out/haptic",
+          "path": "/user/hand/left/output/haptic"
+        }
+      ],
+      "sources": [
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/select"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/trigger"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/select"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/trigger"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/landscape_pgdn"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/a"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/landscape_pgdn"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/a"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/landscape_pgup"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/b"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/landscape_pgup"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/b"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/landscape_prev"
+            },
+            "east": {
+              "output": "/actions/game/in/landscape_next"
+            },
+            "north": {
+              "output": "/actions/game/in/landscape_first"
+            },
+            "south": {
+              "output": "/actions/game/in/landscape_last"
+            }
+          },
+          "parameters": {
+            "sub_mode": "touch",
+            "deadzone_pct": "30",
+            "overlap_pct": "0"
+          },
+          "mode": "dpad",
+          "path": "/user/hand/right/input/thumbstick"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/landscape_prev"
+            },
+            "east": {
+              "output": "/actions/game/in/landscape_next"
+            },
+            "north": {
+              "output": "/actions/game/in/landscape_first"
+            },
+            "south": {
+              "output": "/actions/game/in/landscape_last"
+            }
+          },
+          "parameters": {
+            "sub_mode": "touch",
+            "deadzone_pct": "30",
+            "overlap_pct": "0"
+          },
+          "mode": "dpad",
+          "path": "/user/hand/left/input/thumbstick"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/boulder"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/a"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/boulder"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/a"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/robot"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/b"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/robot"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/b"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/turn_left_45"
+            },
+            "east": {
+              "output": "/actions/game/in/turn_right_45"
+            }
+          },
+          "parameters": {
+            "sub_mode": "touch",
+            "deadzone_pct": "30",
+            "overlap_pct": "0"
+          },
+          "mode": "dpad",
+          "path": "/user/hand/right/input/thumbstick"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/turn_left_45"
+            },
+            "east": {
+              "output": "/actions/game/in/turn_right_45"
+            }
+          },
+          "parameters": {
+            "sub_mode": "touch",
+            "deadzone_pct": "30",
+            "overlap_pct": "0"
+          },
+          "mode": "dpad",
+          "path": "/user/hand/left/input/thumbstick"
+        },
+        {
+          "inputs": {
+            "center": {
+              "output": "/actions/game/in/quit"
+            }
+          },
+          "mode": "dpad",
+          "path": "/user/hand/right/input/thumbstick"
+        },
+        {
+          "inputs": {
+            "center": {
+              "output": "/actions/game/in/quit"
+            }
+          },
+          "mode": "dpad",
+          "path": "/user/hand/left/input/thumbstick"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/reset_hmd"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/trackpad"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/reset_hmd"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/trackpad"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/transfer"
+            }
+          },
+          "parameters": {
+            "force_input": "force",
+            "click_activate_threshold": "0.8"
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/grip"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/transfer"
+            }
+          },
+          "parameters": {
+            "force_input": "force",
+            "click_activate_threshold": "0.8"
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/grip"
+        }
+      ]
+    }
+  },
+  "controller_type": "knuckles",
+  "description": "",
+  "name": "Default bindings for Index Controllers"
+}

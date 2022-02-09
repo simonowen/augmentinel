@@ -1,0 +1,9 @@
+desktop.ini
+/.vs/
+/x64/
+/Debug/
+/Release/
+*.aps
+*.vcxproj.user
+/temp/
+/Releases

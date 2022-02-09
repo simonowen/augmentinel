@@ -1,0 +1,216 @@
+{
+  "bindings": {
+    "/actions/game": {
+      "poses": [
+        {
+          "output": "/actions/game/in/left_pointer",
+          "path": "/user/hand/left/pose/tip"
+        },
+        {
+          "output": "/actions/game/in/right_pointer",
+          "path": "/user/hand/right/pose/tip"
+        }
+      ],
+      "haptics": [
+        {
+          "output": "/actions/game/out/haptic",
+          "path": "/user/hand/right/output/haptic"
+        },
+        {
+          "output": "/actions/game/out/haptic",
+          "path": "/user/hand/left/output/haptic"
+        }
+      ],
+      "sources": [
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/select"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/trigger"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/select"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/trigger"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/boulder"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/a"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/robot"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/b"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/boulder"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/x"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/robot"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/y"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/landscape_prev"
+            },
+            "east": {
+              "output": "/actions/game/in/landscape_next"
+            },
+            "north": {
+              "output": "/actions/game/in/landscape_first"
+            },
+            "south": {
+              "output": "/actions/game/in/landscape_last"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "90",
+            "overlap_pct": "0",
+            "sub_mode" : "touch"
+          },
+          "mode": "dpad",
+          "path": "/user/hand/right/input/joystick"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/landscape_prev"
+            },
+            "east": {
+              "output": "/actions/game/in/landscape_next"
+            },
+            "north": {
+              "output": "/actions/game/in/landscape_first"
+            },
+            "south": {
+              "output": "/actions/game/in/landscape_last"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "90",
+            "overlap_pct": "0",
+            "sub_mode" : "touch"
+
+          },
+          "mode": "dpad",
+          "path": "/user/hand/left/input/joystick"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/robot"
+            },
+            "east": {
+              "output": "/actions/game/in/tree"
+            },
+            "north": {
+              "output": "/actions/game/in/reset_hmd"
+            },
+            "south": {
+              "output": "/actions/game/in/boulder"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "90",
+            "overlap_pct": "0",
+            "sub_mode" : "touch"
+
+          },
+          "mode": "dpad",
+          "path": "/user/hand/right/input/joystick"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/turn_left_45"
+            },
+            "east": {
+              "output": "/actions/game/in/turn_right_45"
+            },
+            "north": {
+              "output": "/actions/game/in/reset_hmd"
+            },
+            "south": {
+              "output": "/actions/game/in/u_turn"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "90",
+            "overlap_pct": "0",
+            "sub_mode" : "touch"
+
+          },
+          "mode": "dpad",
+          "path": "/user/hand/left/input/joystick"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/quit"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/joystick"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/pause"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/joystick"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/transfer"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/grip"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/transfer"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/grip"
+        }
+      ]
+    }
+  },
+  "controller_type": "oculus_touch",
+  "description": "",
+  "name": "Default bindings for Oculus Touch"
+}

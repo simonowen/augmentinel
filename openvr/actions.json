@@ -1,0 +1,164 @@
+{
+  "default_bindings": [
+    {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    },
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_oculus_touch.json"
+    }
+  ],
+  "actions": [
+    {
+      "name": "/actions/game/in/landscape_prev",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/landscape_next",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/landscape_first",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/landscape_last",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/landscape_pgup",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/landscape_pgdn",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/quit",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/pause",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/select",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/game/in/tree",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/boulder",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/game/in/robot",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/game/in/transfer",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/game/in/hyperspace",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/u_turn",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/turn_left",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/turn_right",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/turn_left_45",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/turn_right_45",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/turn_left_90",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/turn_right_90",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/turn_180",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/reset_hmd",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/game/in/left_pointer",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/game/in/right_pointer",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/game/out/haptic",
+      "type": "vibration"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/game",
+      "usage": "single"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/game": "Game Controls",
+      "/actions/game/in/landscape_prev": "Previous Landscape",
+      "/actions/game/in/landscape_next": "Next Landscape",
+      "/actions/game/in/landscape_first": "First Landscape",
+      "/actions/game/in/landscape_last": "Latest Landscape",
+      "/actions/game/in/landscape_pgup": "Landscape Page Up",
+      "/actions/game/in/landscape_pgdn": "Landscape Page Down",
+      "/actions/game/in/quit": "Quit",
+      "/actions/game/in/pause": "Pause",
+      "/actions/game/in/select": "Select / Absorb",
+      "/actions/game/in/tree": "Tree",
+      "/actions/game/in/boulder": "Boulder",
+      "/actions/game/in/robot": "Robot",
+      "/actions/game/in/transfer": "Transfer",
+      "/actions/game/in/hyperspace": "Hyperspace",
+      "/actions/game/in/u_turn": "U-Turn",
+      "/actions/game/in/turn_left": "Turn Left",
+      "/actions/game/in/turn_right": "Turn Right",
+      "/actions/game/in/turn_left_45": "Turn Left 45 degrees",
+      "/actions/game/in/turn_right_45": "Turn Right 45 degrees",
+      "/actions/game/in/turn_left_90": "Turn Left 90 degrees",
+      "/actions/game/in/turn_right_90": "Turn Right 90 degrees",
+      "/actions/game/in/turn_180": "Turn 180 degrees",
+      "/actions/game/in/reset_hmd": "Reset HMD Position",
+      "/actions/game/in/left_pointer": "Left Pointer Pose",
+      "/actions/game/in/right_pointer": "Right Pointer Pose",
+      "/actions/game/out/haptic": "Haptic"
+    }
+  ]
+}

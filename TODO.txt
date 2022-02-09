@@ -1,0 +1,10 @@
+TODO
+----
+
+- convert D3D11 to OpenGL or Vulkan
+- convert Win32 API to wxWidgets or Qt
+- convert OpenVR to OpenXR (needs controller model alternative)
+- support original game view projection as option
+- improved lighting/shadows
+
+Or just port to Unity/UE5!

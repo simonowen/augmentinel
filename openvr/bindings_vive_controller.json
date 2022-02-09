@@ -1,0 +1,179 @@
+{
+  "bindings": {
+    "/actions/game": {
+      "poses": [
+        {
+          "output": "/actions/game/in/left_pointer",
+          "path": "/user/hand/left/pose/tip"
+        },
+        {
+          "output": "/actions/game/in/right_pointer",
+          "path": "/user/hand/right/pose/tip"
+        }
+      ],
+      "haptics": [
+        {
+          "output": "/actions/game/out/haptic",
+          "path": "/user/hand/right/output/haptic"
+        },
+        {
+          "output": "/actions/game/out/haptic",
+          "path": "/user/hand/left/output/haptic"
+        }
+      ],
+      "sources": [
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/select"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/trigger"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/select"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/trigger"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/landscape_prev"
+            },
+            "east": {
+              "output": "/actions/game/in/landscape_next"
+            },
+            "north": {
+              "output": "/actions/game/in/landscape_first"
+            },
+            "south": {
+              "output": "/actions/game/in/landscape_last"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "30",
+            "overlap_pct": "0"
+          },
+          "mode": "dpad_click",
+          "path": "/user/hand/right/input/trackpad"
+        },
+        {
+          "inputs": {
+            "west": {
+              "output": "/actions/game/in/landscape_prev"
+            },
+            "east": {
+              "output": "/actions/game/in/landscape_next"
+            },
+            "north": {
+              "output": "/actions/game/in/landscape_first"
+            },
+            "south": {
+              "output": "/actions/game/in/landscape_last"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "30",
+            "overlap_pct": "0"
+          },
+          "mode": "dpad_click",
+          "path": "/user/hand/left/input/trackpad"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/quit"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/application_menu"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/quit"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/application_menu"
+        },
+        {
+          "inputs": {
+            "center": {
+              "output": "/actions/game/in/transfer"
+            },
+            "west": {
+              "output": "/actions/game/in/robot"
+            },
+            "east": {
+              "output": "/actions/game/in/tree"
+            },
+            "north": {
+              "output": "/actions/game/in/reset_hmd"
+            },
+            "south": {
+              "output": "/actions/game/in/boulder"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "30",
+            "overlap_pct": "0"
+          },
+          "mode": "dpad_click",
+          "path": "/user/hand/right/input/trackpad"
+        },
+        {
+          "inputs": {
+            "center": {
+              "output": "/actions/game/in/transfer"
+            },
+            "west": {
+              "output": "/actions/game/in/robot"
+            },
+            "east": {
+              "output": "/actions/game/in/tree"
+            },
+            "north": {
+              "output": "/actions/game/in/reset_hmd"
+            },
+            "south": {
+              "output": "/actions/game/in/boulder"
+            }
+          },
+          "parameters": {
+            "deadzone_pct": "30",
+            "overlap_pct": "0"
+          },
+          "mode": "dpad_click",
+          "path": "/user/hand/left/input/trackpad"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/transfer"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/grip"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/game/in/transfer"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/grip"
+        }
+      ]
+    }
+  },
+  "controller_type": "vive_controller",
+  "description": "",
+  "name": "Default bindings for HTC Vive"
+}
