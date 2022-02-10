@@ -34,8 +34,6 @@ namespace fs = std::filesystem;
 #include <DirectXMath.h>
 #include <DirectXCollision.h>
 
-#define HAVE_XAUDIO2REDIST
-
 #ifdef HAVE_XAUDIO2REDIST
 #include <xaudio2redist/xaudio2redist.h>
 #include <xaudio2redist/xaudio2fx.h>
