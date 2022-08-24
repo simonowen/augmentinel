@@ -750,7 +750,7 @@ void Augmentinel::Frame(float fElapsed)
 
 			// Run the Spectrum interrupt handler if it's due. This advances the Spectrum
 			// game timers used for various game events.
-			if (total_elapsed >= m_frame_time)
+			while (total_elapsed >= m_frame_time)
 			{
 				m_spectrum->RunInterrupt();
 				total_elapsed -= m_frame_time;
